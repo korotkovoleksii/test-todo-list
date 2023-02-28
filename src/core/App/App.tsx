@@ -1,9 +1,10 @@
+import NewTodoForm from '../../components/NewTodoForm/NewTodoForm';
 import './App.css';
 
 const App = (): JSX.Element => {
   return (
     <div className="App">
-      Hello
+      <NewTodoForm></NewTodoForm>
     </div>
   );
 }

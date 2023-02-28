@@ -1,0 +1,8 @@
+.todoForm{
+    display: flex;
+    align-items: end;
+    gap:45px;
+}
+input{
+    width:250px;
+}
