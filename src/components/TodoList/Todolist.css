@@ -1,0 +1,21 @@
+.headerList {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CECECE;
+    margin-bottom: 30px;
+}
+
+.headerItem {
+    width: 150px;
+    text-align: center;
+}
+
+.itemsList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container {
+    width: 700px;
+}

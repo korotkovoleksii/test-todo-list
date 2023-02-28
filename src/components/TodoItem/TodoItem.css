@@ -1,0 +1,16 @@
+.todoItem {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: #A5A5A5;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    width: 150px;
+    max-width: 150px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

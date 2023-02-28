@@ -1,8 +1,29 @@
-.todoForm{
+.todoForm {
     display: flex;
-    align-items: end;
-    gap:45px;
+    align-items: flex-end;
+    gap: 45px;
+    margin-bottom: 25px;
+
 }
-input{
-    width:250px;
+
+.title,
+.description {
+    width: 150px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+input[type=text] {
+    width: 250px;
+}
+
+.error-label {
+    color #ff0000;
+    position: absolute;
+
+}
+
+.input-error {
+    border-color: #ff0000;
 }
